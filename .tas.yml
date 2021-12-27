@@ -1,10 +1,10 @@
 ---
 framework: jest
 licenseTier: xsmall
-postMerge:
-  pattern:
+postMerge: 
+  pattern: 
     - "./test.js"
-  strategy:
+  strategy: 
     threshold: <5|100s|30m|6h>
     type: <commit|time>
 preMerge:
@@ -16,4 +16,4 @@ preRun:
 postRun:
      command:
         - node --version
-version: 2.1
+version: 2.2
