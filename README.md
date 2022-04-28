@@ -1,4 +1,4 @@
-# Arg
+# Arg edit
 
 `arg` is an unopinionated, no-frills CLI argument parser.
 
